@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TwitterBootstrapRailsConfirmTest</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <%= content_for :load_bootstrap %>
+    <%= javascript_include_tag 'twitter-bootstrap-rails-confirm' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
